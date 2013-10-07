@@ -1,3 +1,5 @@
-# AcmeDemoBundle routes (to be removed)
-_acme_demo:
-    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+home:
+    path: /
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: 'home.html.twig'
